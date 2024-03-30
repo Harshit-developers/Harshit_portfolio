@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/*--------navbar start------*/
+.navbar{
+    
+    margin: 0;
+   width: 100%;
+   height: 50px;
+   background-color:black;
+
+
+}
+.navbar .logo a{
+    color:white;
+    font-family:  Cambria;
+    font-size:25px;
+    font-weight: bolder;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+
+.navbar  ul{
+  float: right;
+}
+
+.navbar ul li{
+   display: inline-block;
+   text-decoration: none;
+   padding: 0 20px;
+   
+
+}
+.navbar  ul li a{
+text-decoration: none;
+color:white;
+
+
+}
+.navbar ul li a:hover{
+color: black;
+background-color: aliceblue;
+border-radius: 2px;
+}
+
+#checkbtn{
+    float: right;
+    font-size: 20px;
+    color: aliceblue;
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    left: 0;
+
+}
+
+
+
+@media(max-width:840px) {
+    #checkbtn{
+       display: block;
+
+    }
+  #check:checked ~ #checkbtn i::before{
+    content:"\f00d";
+  }
+
+    .navbar  ul{
+        width: 100%;
+        height: 100vh;    
+        position: fixed;
+        top:50px;
+        left: -100%;
+        transition: 0.5s;
+        background:#111;
+    }
+   .navbar ul li{
+       margin-top: 20px;
+       display: block;
+       text-align: center;
+   }
+}
+
+#social-media a{
+   color:aliceblue;
+   text-decoration: none;
+   margin-right:15px;
+}
+/*--------navbar end------*/
+
+/*--------banner start------*/
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+   background-color: black;
+}
+.banner .btn{
+   background: transparent;
+
+}
+
+.banner .row{
+    height: 100vh;
+   width:100%;
+
+  
+}
+
+#describe{
+    text-align: center;
+}
+
+#describe .btn{
+    background: transparent;
+    border: solid;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+#describe .btn:hover{
+
+   background-color:red;
+
+}
+
+#describe .btn a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.img img{
+    
+background-color:gray;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border:none;
+border-radius: 100%;
+
+
+
+}
+
+
+/*--------banner end------*/
+
+/*-------- about section banner2 start------*/
+
+.banner2{
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin-top: 50px;
+     width: 100%;
+
+}
+.banner2 h1{
+color:white;
+
+}
+.banner2 h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color:aliceblue;
+    
+}
+.banner2 p{
+    text-align:justify;
+}
+
+#Academics{
+margin-top: 50px;
+padding: 10px;
+
+
+
+}
+
+#Academics p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+
+}
+
+.skill{
+    margin-top: 30px;
+}
+
+.skill h1{
+    text-align: center;
+    
+}
+#skills{
+    margin-top: 50px;
+    
+
+}
+
+#skills img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.skill .col-sm-12 .col-sm-2{
+    height:140px;
+    width: 90px;
+    
+
+}
+.skill .col-sm-12 .col-sm-3{
+
+    height:140px;
+    width: 100px;
+
+}
+#skills2{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+#skills2  img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+/*-------- about section banner2 end------*/
+
+
+
+
+
+
+
+
+
+
+
+
